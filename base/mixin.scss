@@ -1,3 +1,14 @@
+@mixin mediaMaxWidth($w_width) {
+    @media only screen and (max-width: $w_width) {
+        @content;
+    }
+}
+@mixin mediaMinWidth($w_width) {
+    @media only screen and (min-width: $w_width) {
+        @content;
+    }
+}
+
 @mixin mediaQueryMax($args...){
     @if length($args) == 1{
         @media (max-width:nth($args,1)){
@@ -22,49 +33,13 @@
         }
     }
 }
-@mixin transition() {
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-}
 
-@mixin transition-time($time) {
-    -moz-transition: all $time ease-in-out;
-    -o-transition: all $time ease-in-out;
-    -webkit-transition: all $time ease-in-out;
-    transition: all $time ease-in-out;
-}
-@mixin keyframes( $animationName ){
-    @-webkit-keyframes #{$animationName} {
-        @content;
-    }
-    @-moz-keyframes #{$animationName} {
-        @content;
-    }
-    @-o-keyframes #{$animationName} {
-        @content;
-    }
-    @keyframes #{$animationName} {
-        @content;
-    }
-}
 @mixin fixedFull {
     position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
-}
-
-@mixin blockFixed ($top, $bottom, $left, $right, $zIndex) {
-    display: block;
-    position: fixed;
-    top: $top;
-    bottom: $bottom;
-    left: $left;
-    right: $right;
-    z-index: $zIndex;
 }
 
 @mixin absoluteFull {
@@ -85,6 +60,12 @@
 @mixin backgroundCoverCenter {
     background-size: cover;
     background-position: center center;
+}
+
+@mixin boxSizing($value) {
+    -webkit-box-sizing: $value;
+    -moz-box-sizing: $value;
+    box-sizing: $value;
 }
 
 @mixin flex {
@@ -163,6 +144,12 @@
     transition: $value;
 }
 
+@mixin transform($value) {
+    -webkit-transform: $value;
+    -moz-transform: $value;
+    transform: $value;
+}
+
 @mixin animation($value) {
     -webkit-animation: $value;
     -moz-animation: $value;
@@ -170,30 +157,25 @@
     -ms-animation: $value;
 }
 
-// transform
-@mixin transform($value) {
-    -webkit-transform: $value;
-    -moz-transform: $value;
-    transform: $value;
-}
-@mixin mediaMaxWidth($w_width) {
-    @media only screen and (max-width: $w_width) {
+@mixin keyframes( $animationName ){
+    @-webkit-keyframes #{$animationName} {
         @content;
     }
-}
-@mixin mediaMinWidth($w_width) {
-    @media only screen and (min-width: $w_width) {
+    @-moz-keyframes #{$animationName} {
+        @content;
+    }
+    @-o-keyframes #{$animationName} {
+        @content;
+    }
+    @keyframes #{$animationName} {
         @content;
     }
 }
 
-/*
-example keyframes
-@include keyframes( incrediblehulk ){
-    0% {
-        color: #f8d2c0;
+@mixin clearfix() {
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
     }
-    100% {
-        color: #0f0;
-    }
-}*/
+}
