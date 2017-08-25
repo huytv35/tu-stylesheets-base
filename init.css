@@ -28,106 +28,106 @@ q:before, q:after { content: ''; content: none; }
 
 ::-webkit-scrollbar-thumb:window-inactive { background: rgba(0, 0, 0, 0.2); }
 
-.container-col-1 { width: 8.33333%; margin: 0 auto; }
+.container-col-1 { width: 8.33333%; margin: 0 auto; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .container-col-1 { width: 100%; padding: 0 20px; } }
 
-.container-col-2 { width: 16.66667%; margin: 0 auto; }
+.container-col-2 { width: 16.66667%; margin: 0 auto; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .container-col-2 { width: 100%; padding: 0 20px; } }
 
-.container-col-3 { width: 25%; margin: 0 auto; }
+.container-col-3 { width: 25%; margin: 0 auto; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .container-col-3 { width: 100%; padding: 0 20px; } }
 
-.container-col-4 { width: 33.33333%; margin: 0 auto; }
+.container-col-4 { width: 33.33333%; margin: 0 auto; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .container-col-4 { width: 100%; padding: 0 20px; } }
 
-.container-col-5 { width: 41.66667%; margin: 0 auto; }
+.container-col-5 { width: 41.66667%; margin: 0 auto; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .container-col-5 { width: 100%; padding: 0 20px; } }
 
-.container-col-6 { width: 50%; margin: 0 auto; }
+.container-col-6 { width: 50%; margin: 0 auto; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .container-col-6 { width: 100%; padding: 0 20px; } }
 
-.container-col-7 { width: 58.33333%; margin: 0 auto; }
+.container-col-7 { width: 58.33333%; margin: 0 auto; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .container-col-7 { width: 100%; padding: 0 20px; } }
 
-.container-col-8 { width: 66.66667%; margin: 0 auto; }
+.container-col-8 { width: 66.66667%; margin: 0 auto; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .container-col-8 { width: 100%; padding: 0 20px; } }
 
-.container-col-9 { width: 75%; margin: 0 auto; }
+.container-col-9 { width: 75%; margin: 0 auto; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .container-col-9 { width: 100%; padding: 0 20px; } }
 
-.container-col-10 { width: 83.33333%; margin: 0 auto; }
+.container-col-10 { width: 83.33333%; margin: 0 auto; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .container-col-10 { width: 100%; padding: 0 20px; } }
 
-.container-col-11 { width: 91.66667%; margin: 0 auto; }
+.container-col-11 { width: 91.66667%; margin: 0 auto; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .container-col-11 { width: 100%; padding: 0 20px; } }
 
-.container-col-12 { width: 100%; margin: 0 auto; }
+.container-col-12 { width: 100%; margin: 0 auto; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .container-col-12 { width: 100%; padding: 0 20px; } }
 
-.grid-col-1 { width: 8.33333%; float: left; padding: 0 15px; }
+.grid-col-1 { width: 8.33333%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .grid-col-1 { width: 100%; } }
 
-.grid-col-2 { width: 16.66667%; float: left; padding: 0 15px; }
+.grid-col-2 { width: 16.66667%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .grid-col-2 { width: 100%; } }
 
-.grid-col-3 { width: 25%; float: left; padding: 0 15px; }
+.grid-col-3 { width: 25%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .grid-col-3 { width: 100%; } }
 
-.grid-col-4 { width: 33.33333%; float: left; padding: 0 15px; }
+.grid-col-4 { width: 33.33333%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .grid-col-4 { width: 100%; } }
 
-.grid-col-5 { width: 41.66667%; float: left; padding: 0 15px; }
+.grid-col-5 { width: 41.66667%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .grid-col-5 { width: 100%; } }
 
-.grid-col-6 { width: 50%; float: left; padding: 0 15px; }
+.grid-col-6 { width: 50%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .grid-col-6 { width: 100%; } }
 
-.grid-col-7 { width: 58.33333%; float: left; padding: 0 15px; }
+.grid-col-7 { width: 58.33333%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .grid-col-7 { width: 100%; } }
 
-.grid-col-8 { width: 66.66667%; float: left; padding: 0 15px; }
+.grid-col-8 { width: 66.66667%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .grid-col-8 { width: 100%; } }
 
-.grid-col-9 { width: 75%; float: left; padding: 0 15px; }
+.grid-col-9 { width: 75%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .grid-col-9 { width: 100%; } }
 
-.grid-col-10 { width: 83.33333%; float: left; padding: 0 15px; }
+.grid-col-10 { width: 83.33333%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .grid-col-10 { width: 100%; } }
 
-.grid-col-11 { width: 91.66667%; float: left; padding: 0 15px; }
+.grid-col-11 { width: 91.66667%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .grid-col-11 { width: 100%; } }
 
-.grid-col-12 { width: 100%; float: left; padding: 0 15px; }
+.grid-col-12 { width: 100%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .grid-col-12 { width: 100%; } }
 
-.grid10-col-1 { width: 10%; float: left; padding: 0 15px; }
+.grid10-col-1 { width: 10%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .grid10-col-1 { width: 100%; } }
 
-.grid10-col-2 { width: 20%; float: left; padding: 0 15px; }
+.grid10-col-2 { width: 20%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .grid10-col-2 { width: 100%; } }
 
-.grid10-col-3 { width: 30%; float: left; padding: 0 15px; }
+.grid10-col-3 { width: 30%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .grid10-col-3 { width: 100%; } }
 
-.grid10-col-4 { width: 40%; float: left; padding: 0 15px; }
+.grid10-col-4 { width: 40%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .grid10-col-4 { width: 100%; } }
 
-.grid10-col-5 { width: 50%; float: left; padding: 0 15px; }
+.grid10-col-5 { width: 50%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .grid10-col-5 { width: 100%; } }
 
-.grid10-col-6 { width: 60%; float: left; padding: 0 15px; }
+.grid10-col-6 { width: 60%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .grid10-col-6 { width: 100%; } }
 
-.grid10-col-7 { width: 70%; float: left; padding: 0 15px; }
+.grid10-col-7 { width: 70%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .grid10-col-7 { width: 100%; } }
 
-.grid10-col-8 { width: 80%; float: left; padding: 0 15px; }
+.grid10-col-8 { width: 80%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .grid10-col-8 { width: 100%; } }
 
-.grid10-col-9 { width: 90%; float: left; padding: 0 15px; }
+.grid10-col-9 { width: 90%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .grid10-col-9 { width: 100%; } }
 
-.grid10-col-10 { width: 100%; float: left; padding: 0 15px; }
+.grid10-col-10 { width: 100%; float: left; padding: 0 15px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 @media only screen and (max-width: 768px) { .grid10-col-10 { width: 100%; } }
 
 .row { margin-right: -15px; margin-left: -15px; }
