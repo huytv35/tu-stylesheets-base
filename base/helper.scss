@@ -28,6 +28,13 @@
         }
     }
 }
+.row {
+    @include mediaMaxWidth(768px) {
+        margin-right: -15px;
+        margin-left: -15px;
+        @include clearfix;
+    }
+}
 
 .fl {
     float: left;

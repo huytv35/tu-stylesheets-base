@@ -130,6 +130,9 @@ q:before, q:after { content: ''; content: none; }
 .grid10-col-10 { width: 100%; float: left; }
 @media only screen and (max-width: 768px) { .grid10-col-10 { width: 100%; } }
 
+@media only screen and (max-width: 768px) { .row { margin-right: -15px; margin-left: -15px; }
+  .row:after { content: ""; display: table; clear: both; } }
+
 .fl { float: left; }
 
 .fr { float: right; }
